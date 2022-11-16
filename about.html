@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Tapestry&family=Architects+Daughter&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+</head>
+<body>
+
+    <section id="navbar">
+        <nav class="navbar">
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">E-commerce</a></li>
+                <li><a href="#">Project#?</a></li>
+            </ul>
+        </nav>
+
+    </section>
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="#">Home</a>
+      <a href="#">Gallery</a>
+      <a href="#">E-commerce</a>
+      <a href="#">Project#?</a>
+    </div>
+  
+    </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <i class="fa-solid fa-bars" onclick="openNav()"></i>
+    <div class="bookmark-line-top-right"></div>
+    <div class="bookmark-line-left-bottom"></div>
+
+    <div class="circle-1">
+        <span class="resume">Teaching Resume</span>
+        <button class="open-circle-1"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+        <i class="fa-solid fa-chevron-up close-circle-1"></i>
+        <div class="teaching-experience hidden">
+            <h4>Teaching Experience</h4>
+            <ul>
+                <li>2010-curent</li><span>Private Violin/Viola/Piano Teacher</span>
+                <li>2015-2018</li><span>South Pasadena String Program Violin/Viola Faculty</span>
+                <li>2016- 2017</li><span>Hayfield Music Conservatory</span>
+                <li>2016-2017</li><span>LA Violin Shop Violin/Viola Teacher</span>
+                <li>2017-2018</li><span>LA's Best Faculty:Hobart Elementary</span>
+                <li>2020-2022</li><span>Music Box Studios Violin/Piano Faculty</span>
+            </ul>
+        </div>
+    </div>
+
+    <section class="main">
+        <div class="short-bio-container">
+            
+            <div class="bio-image" id="bio-image-hover">
+                <img src="Screen Shot 2019-10-16 at 11.31.04 AM.png" alt="" >
+            </div>          
+            <div class="short-bio" id="short-bio">
+                <p><div class="first-letter">M</div><!--arc Rose is a self-taught, front-end web developper with experience in HTML, CSS, Javascript, jQuery, Boostraip, SQL, and Python. 	 Marcus Rose is a professional violinist/violist/pianist born in Inglewood, CA, yet raised in Shreveport, LA.   
+                
+                    Marcus holds a BM from the Juilliard School as an Irene Diamond and C.V. Starr scholarship recipient studying with Heidi Castleman and Steven Tenenbom.  He attended the Masters program at the University of Southern California Thornton School of Music as a scholarship student of Karen Dreyfus.  He was generously loaned a contemporary viola by the Canadian maker Raymond Scrhyer from the Virtu Foundation.  He enjoys teaching the next generation of violin, viola, and piano students by instilling the concept of music as a universal language."</p>-->
+            </div>
+           
+        </div>
+        <div class="tabbed-section">
+            <div class="resume-tabs">
+                <button class="tab1" id="tab1">Teaching</button>
+                <button class="tab2 selected">Education</button>
+                <button class="tab3 selected">Awards/Highlights</button>
+            </div>
+    
+            <div class="resume-docs">
+                <div id="teaching-tab" class="tabcontent">
+                    <h4>Teaching Experience</h4>
+                        <ul>
+                            <li>2010-curent</li><span>*Private Violin/Viola/Piano Teacher</span>
+                            <li>2015-2018</li><span>*South Pasadena String Program Violin/Viola Faculty</span>
+                            <li>2016- 2017</li><span>*Hayfield Music Conservatory</span>
+                            <li>2016-2017</li><span>*LA Violin Shop Violin/Viola Teacher</span>
+                            <li>2017-2018</li><span>*LA's Best Faculty:Hobart Elementary</span>
+                            <li>2020-2022</li><span>*Music Box Studios Violin/Piano Faculty</span>
+                        </ul>
+            
+                </div>
+                <div id="education-tab" class="tabcontent">
+                    <h4>Education</h4>
+                    <ul>
+                        <li>2011-2015</li><span>*The Juilliard School, BM</span>
+                        <li>2015-2016</li><span>*University of Southern California, Thornton School of Music, MM</span>
+                    </ul>
+                </div>
+                <div id="awards-tab" class="tabcontent">
+                    <h4>Honors/Performance Highlights</h4>
+                        <ul>
+                            <li>2008</li><span>*Soloist with Marshall Symphony Orchestra</span>
+                            <li>2009</li><span>*Texarkana Symphony Orchestra Concerto Competition Winner</span>
+                            <li>2010</li><span>*1st Prize Marjorie Stricklin Emerging Artist Competition</span>
+                            <li>2010</li><span>*Jack Kent Cooke Foundation Award Recipient</span>
+                            <li>2010</li><span>*NPR's <italics>From the Top</italics> Soloist</span>
+                            <li>2012</li><span>*Loaned instrument from Virtu Foundation</span>
+            
+                            <li>2013</li><span>*2nd Prize Geroge Gershwin International Competition</span>
+                            <li>2014</li><span>*Soloist with Centenary Youth Orchestra</span>
+                            <li>2015</li><span>*Finalist in Juilliard Concerto Competition</span>
+                            <li>2015-2016</li><span>*Principal Violist of USC Symphony Orchestra</span>
+                            <li>2016</li><span>*Soloist with Texarkana Symphony Orhcestra</span>
+                        </ul>
+                </div>
+            </div>
+        
+            
+            
+        </div>
+    </section>
+
+    <div class="circle-2">
+        <i class="fa-solid fa-chevron-down close-circle-2"></i>
+        <div class="education hidden">
+            <h4>Education</h4>
+        <ul>
+            <li>2011-2015</li><span>The Juilliard School, BM</span>
+            <li>2015-2016</li><span>University of Southern California, Thornton School of Music, MM</span>
+        </ul>
+        </div>
+    </div>
+
+    <div class="circle-3" id="circle-3">
+        <div class="awards hidden">
+            <i class="fa-solid fa-chevron-down close-circle-3"></i>
+            <h4>Honors/Performance Highlights</h4>
+            <ul>
+                <li>2008</li><span>Soloist with Marshall Symphony Orchestra</span>
+                <li>2009</li><span>Texarkana Symphony Orchestra Concerto Competition Winner</span>
+                <li>2010</li><span>1st Prize Marjorie Stricklin Emerging Artist Competition</span>
+                <li>2010</li><span>Jack Kent Cooke Foundation Award Recipient</span>
+                <li>2010</li><span>NPR's <italics>From the Top</italics> Soloist</span>
+                <li>2012</li><span>Loaned instrument from Virtu Foundation</span>
+
+                <li>2013</li><span>2nd Prize Geroge Gershwin International Competition</span>
+                <li>2014</li><span>Soloist with Centenary Youth Orchestra</span>
+                <li>2015</li><span>Finalist in Juilliard Concerto Competition</span>
+                <li>2015-2016</li><span>Principal Violist of USC Symphony Orchestra</span>
+                <li>2016</li><span>Soloist with Texarkana Symphony Orhcestra</span>
+            </ul>
+        </div>
+    </div>
+
+    
+
+    <div class="c2">
+        <i class="fa-solid fa-chevron-up open-circle-2"></i>
+        <p id="education-label">Education</p>
+    </div>
+
+    <div class="c3">
+        <i class="fa-solid fa-chevron-up open-circle-3"></i>
+        <p id="awards-label">Awards/Highlights</p>
+    </div>
+
+    <script src="about.js"></script>
+  
+</body>
+</html>
